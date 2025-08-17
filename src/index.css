@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* --------------- */
+/* Remove default gap between items */
+.custom-carousel .p-carousel-items {
+  gap: 0 !important;
+}
+.custom-carousel .p-carousel-item {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Carousel Item Container */
+.custom-carousel .p-carousel-item {
+  display: flex;
+  justify-content: center;
+}
+
+/* Change the arrow icon color */
+.custom-carousel .p-carousel-prev .p-carousel-prev-icon,
+.custom-carousel .p-carousel-next .p-carousel-next-icon {
+  color: white !important;
+  font-size: 1.5rem;
+}

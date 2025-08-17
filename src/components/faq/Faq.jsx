@@ -1,5 +1,5 @@
 import { useState } from "react";
-import upImg from "../assets/images/faq/up.png";
+import upImg from "../../assets/images/faq/up.png";
 
 const faqData = [
   {

@@ -1,9 +1,9 @@
-import About from "./About";
-import Banner from "./Banner";
-import Contact from "./Contact";
-import Faq from "./Faq";
-import Portfolio from "./Portfolio";
-import Pricing from "./Pricing";
+import About from "../components/About/About";
+import Banner from "../components/banner/Banner";
+import Portfolio from "../components/portfolio/Portfolio";
+import Pricing from "../components/pricing/Pricing";
+import Faq from "../components/faq/Faq";
+import Contact from "../components/contact/Contact";
 
 function Home() {
   return (

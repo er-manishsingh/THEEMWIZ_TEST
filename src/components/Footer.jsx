@@ -52,7 +52,7 @@ const Footer = () => {
       {/* Bottom Section */}
       <div className="flex flex-col md:flex-row justify-between items-center text-[#391400A3] text-sm gap-3">
         <p className="text-center md:text-left">
-          Copyright © 2022 Laaqiq. All Rights Reserved.
+          Copyright © 2025 Manish Singh. All Rights Reserved.
         </p>
         <div className="flex gap-6">
           <span className="text-[#391400] cursor-pointer hover:text-[#EF6D58]">

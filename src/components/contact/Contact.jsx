@@ -1,5 +1,5 @@
-import mapImg from "../assets/images/contact/map.png";
-import pinImg from "../assets/images/contact/pin.png";
+import mapImg from "../../assets/images/contact/map.png";
+import pinImg from "../../assets/images/contact/pin.png";
 
 const Contact = () => {
   return (

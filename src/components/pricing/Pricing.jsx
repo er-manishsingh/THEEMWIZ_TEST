@@ -1,5 +1,5 @@
-import plusImg from "../assets/images/pricing/plus.png";
-import minusImg from "../assets/images/pricing/minus.png";
+import Plusimg from "../../assets/images/pricing/plus.png";
+import Minusimg from "../../assets/images/pricing/minus.png";
 
 const Pricing = () => {
   const plans = [
@@ -89,9 +89,9 @@ const Pricing = () => {
                       }`}
                     >
                       {plan.highlights[i] ? (
-                        <img src={plusImg} alt="Included" />
+                        <img src={Plusimg} alt="Included" />
                       ) : (
-                        <img src={minusImg} alt="Not included" />
+                        <img src={Minusimg} alt="Not included" />
                       )}
                     </div>
                     <span

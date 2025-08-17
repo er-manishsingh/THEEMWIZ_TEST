@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <header className="bg-[#28293E] text-white w-full font-primary">
-      <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center relative">
+      <div className="max-w-screen-2xl mx-auto px-6 py-4 flex justify-between items-center relative">
         {/* Logo */}
         <div className="flex items-center gap-2 text-2xl font-bold ">
           <div className="w-10 h-10 rounded-full flex items-center justify-center relative">
@@ -36,18 +36,19 @@ const Navbar = () => {
 
         {/* Right button - desktop only */}
         <div className="hidden md:block ">
-          <button className="w-full h-full border border-white px-4 py-2 rounded-md text-sm hover:bg-white hover:text-black transition">
+          <button className="w-full h-full border border-[#FFFFFF4B] px-4 py-2 rounded-md text-base hover:bg-white hover:text-black transition">
             CONTACT
           </button>
         </div>
 
         {/* Hamburger Icon - Mobile */}
-        <div
-          className="md:hidden text-3xl"
+        <button
+          className="md:hidden text-xl p-2 border border-[#FFFFFF4B] rounded-md flex items-center justify-center"
           onClick={() => setMenuOpen(!menuOpen)}
+          aria-label={menuOpen ? "Close menu" : "Open menu"}
         >
           {menuOpen ? <IoClose /> : <GiHamburgerMenu />}
-        </div>
+        </button>
 
         {/* Mobile Menu */}
         {menuOpen && (
